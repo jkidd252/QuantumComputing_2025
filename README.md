@@ -5,7 +5,7 @@ Group 5 - Code for 'Quantum Computing' project 2025
 
 This directory contains all the code produced by group 5 for the Quantum Computing Project.
 
-Code is written in an OOP style and operations are executed by running files whose name starts with 'main_', these include:
+Code is written in an OOP style and (most) operations are executed by running files whose name starts with 'main_', these include:
 > main_GroverType_comparision.py
 
 This runs sparse and normal versions of the gate and target based grovers algorithm, this file produces an image 'time_vs_qubit.png' which is shown in Figure 16 in the report.
@@ -18,6 +18,9 @@ This runs the QFT algorithm for phase and order estimation.
 
 This runs both sparse matrix and regular matrix versions of the matrix product and produces an image 'Logstep.png' which shows the time needed to compute the product as a function of the sparsity of the input matrix. The resulting image is shown in Figure 12 in the report.
 
+The Quantum teleportation portion of the code is executed by running 'QuantumTeleportation.py' and calling methods of a main class, e.g
+
+> QuantumTeleportation.py main.noise()
 
 ## ⬇️ Installation instructions
 
